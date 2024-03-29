@@ -9,7 +9,6 @@ public class BonusCalculator {
 
         System.out.print("Enter the year the employee joined the organization: ");
         int joinedYear = scanner.nextInt();
-
         int yearsOfService = currentYear - joinedYear;
 
         if (yearsOfService > 5) {
